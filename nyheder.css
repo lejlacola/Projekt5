@@ -29,7 +29,7 @@ body{
     border: none;
     background-color: #FFFFFF;
   }
-  
+
   /* splashpage */
 .splash {
   display: flex;
@@ -37,7 +37,7 @@ body{
   align-items: center;
   height: 100%;
   width: 100%;
-  background-color: #DE7B03;
+  background-color: #ffffff;
   z-index: 200;
 }
 
@@ -58,7 +58,7 @@ body{
   opacity: 0;
   height: 100%;
   width: 100%;
-  background-color: #DE7B03;
+  background-color: #ffffff;
   z-index: -10;
   transition: all 0.5s;
 }
