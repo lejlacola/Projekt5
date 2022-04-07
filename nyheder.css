@@ -1,0 +1,31 @@
+body{
+    background-color: #F3F3F3;
+  }
+  h1{
+    text-align: center;
+  }
+  .topbillede{
+    width: 100%;
+  }
+  .nyhedbox {
+    background-color: #FFFFFF;
+    margin: 2%;
+  }
+  .billede1 {
+    width: 700px;
+    max-width: 100%;
+  }
+  .nyhedoverskrift {
+    color: #000000;
+  }
+  .tekstfelt {
+    height: 30px;
+  }
+  .nyhedertekst {
+    color: #000000;
+  }
+  .nyhederknap {
+    color: #7BB56F;
+    border: none;
+    background-color: #FFFFFF;
+  }

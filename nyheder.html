@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet.css">
-    <script src="lejla.js" defer></script>
+    <link rel="stylesheet" href="nyheder.css">
+    <script src="Javascript/lejla.js" defer></script>
     <title>Seneste Nyheder</title>
     <meta name="Seneste Nyheder" content="Her kan du læse og se de seneste nyheder og sociale begivenheder
 for H.C Andersens festspil i odense.">
@@ -22,17 +22,16 @@ for H.C Andersens festspil i odense.">
     <div class="menu">
     </div>
 
-    <main>
-      <div class="nyhedbox" id="nbox">
+    
+      <div class="nyhedbox">
         <img src="billeder/opslag1.png" alt="forestilling" class="billede1">
         <p class="nyhedoverskrift">Overskrift</p>
-        <div class="tekstfelt">
+        <div class="tekstfelt" id="tf">
           <p class="nyhedertekst">
           tekst her</p>
           </div>
-        <button onclick="jstekstfelter(0)" class="nyhederknap">Læs mere</button>
+        <button onclick="jstekstfelt(0)" class="nyhederknap" id="nknap">Læs mere</button>
     </div>
-  </main>
 
     <footer>
     </footer>
