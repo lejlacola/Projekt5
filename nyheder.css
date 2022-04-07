@@ -15,6 +15,10 @@ body{
     width: 700px;
     max-width: 100%;
   }
+  .billede2 {
+      width: 400px;
+      max-width: 100%;
+  }
   .nyhedoverskrift {
     color: #000000;
     font-size: 18px;
