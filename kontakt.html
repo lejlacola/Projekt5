@@ -10,6 +10,22 @@
 scenekunst at stor kvalitet til en traditionsrig musical? så kontakt os gerne">
 </head>
 <body>
-    <h1>Kontakt</h1>
+  <div class="grid-kontakt">
+    <div class="header">
+          <h1>Kontakt</h1>
+      </div>
+    </div>
+    <div class="menu">
+    </div>
+    <div class="main">
+      <form id="my_form" onsubmit="submitForm(); return false;" >
+          <p><input id="n" placeholder="Navn" required></p>
+          <p><input id="e" placeholder="Spam email tilmelder" type="email" required></p>
+          <textarea id="m" placeholder="Skriv din lorte besked her" rows="10" required></textarea>
+          <p><input id="mybtn" type="submit" value="Submit Form"> <span id="status"></span></p>
+        </form>
+    </div>
+    <div class="footer">
+    </div>
 </body>
 </html>
