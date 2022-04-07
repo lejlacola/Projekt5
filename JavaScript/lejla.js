@@ -8,17 +8,16 @@ console.log(boxes);
 let btns = document.getElementsByClassName("nyhederknap");
 
 
-
-function jstekstfelter(b) {
+function jstekstfelt(b) {
     let box = boxes[b];
     let height1 = box.offsetHeight;
-        if(height1 < 100){
-        box.style.height= (height1=210)+"px";
+        if(height1 < 50){
+        box.style.height= (height1=100)+"px";
         btns[b].innerHTML = "Læs mindre";
     }
     else{
         let height1 = box.offsetHeight
-        box.style.height= (height1=80)+"px";
+        box.style.height= (height1=30)+"px";
         btns[b].innerHTML = "Læs mere";
     }
 };
