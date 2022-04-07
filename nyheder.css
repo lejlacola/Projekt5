@@ -11,12 +11,13 @@ body{
     background-color: #FFFFFF;
     margin: 2%;
   }
-  .billede1 {
+  .billede {
     width: 700px;
     max-width: 100%;
   }
   .nyhedoverskrift {
     color: #000000;
+    font-size: 18px;
   }
   .tekstfelt {
     height: 30px;
