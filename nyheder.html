@@ -5,24 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
+    <script src="lejla.js" defer></script>
     <title>Seneste Nyheder</title>
     <meta name="Seneste Nyheder" content="Her kan du læse og se de seneste nyheder og sociale begivenheder
 for H.C Andersens festspil i odense.">
 </head>
 <body>
   <div class="grid-nyheder">
-    <div class="header">
+    <header>
       <div id="top-billed">
-        <img src="billeder/topbilled.jpg" alt="H.C.Andersen Festpillene baner">
+        <img src="billeder/topbilled.jpg" alt="H.C.Andersen Festpillene baner" class="topbillede">
           <h1>Nyheder</h1>
       </div>
-    </div>
+    </header>
+
     <div class="menu">
     </div>
-    <div class="main">
+
+    <main>
+      <div class="nyhedbox" id="nbox">
+        <img src="billeder/opslag1.png" alt="forestilling" class="billede1">
+        <p class="nyhedoverskrift">Overskrift</p>
+        <div class="tekstfelt">
+          <p class="nyhedertekst">
+          tekst her</p>
+          </div>
+        <button onclick="jstekstfelter(0)" class="nyhederknap">Læs mere</button>
     </div>
-    <div class="footer">
-    </div>
+  </main>
+
+    <footer>
+    </footer>
   </div>
 </body>
 </html>
