@@ -30,3 +30,37 @@ body{
     border: none;
     background-color: #FFFFFF;
   }
+  
+  /* splashpage */
+.splash {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #DE7B03;
+  z-index: 200;
+}
+
+@keyframes fadeIn {
+  to{
+    opacity: 1;
+  }
+}
+
+.fade.in {
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+}
+.splash.display-none {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #DE7B03;
+  z-index: -10;
+  transition: all 0.5s;
+}
+/* splashpage slut */
