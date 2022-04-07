@@ -334,6 +334,7 @@ header {
   text-align: left;
   display: grid;
   grid-template-areas:
+    "o o o . . . . . . ."
     "";
   grid-template-columns: repeat(10, 1fr);
   box-sizing: border-box;
@@ -347,10 +348,6 @@ header {
   max-width: 500px;
 }
 
-
-.dag {
-  grid-area: h;
-}
 
 .uge {
   display: block;
@@ -416,42 +413,6 @@ header {
 
 #prlx_lyr_2{
   pointer-events: none;
-}
-
-/* bund menu */
-
-footer {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  bottom: 0;
-  position: fixed;
-  margin-left: -8px;
-}
-
-.fbtn {
-  background-color: #00454e;
-  align-content: stretch;
-  width: 25%;
-  text-align: center;
-
-  align-items: center;
-  transition: 0.3s;
-}
-
-.fbtn:hover {
-  background-color: #cae4e3;
-}
-
-.ficon {
-  margin: 10px;
-  margin-bottom: 5px;
-  height: 35px;
-  width: auto;
-}
-
-#fhome {
-  background-color: #cae4e3;
 }
 
 
