@@ -23,15 +23,14 @@
   margin: auto;
   padding-left: 20px;
   padding-right: 20px;
-  margin-bottom: 25px;
-  grid-gap: 5px;
+  margin-bottom: 2%;
+  grid-gap: 2%;
   background-color: #ffffff;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   max-width: 500px;
 }
 
-h2{
-	text-align: center;
+.manede{
 	grid-area: man;
 }
 
