@@ -104,22 +104,12 @@ h1{
   pointer-events: none;
 }
 
-*,*::before,*::after{
-	box-sizing:border-box;
-}
-
-/*** Variables */
-
 :root{
 	font-size:10px;
 
 	--header-height:6rem;
 	--mobile-menu-width:4rem;
 
-	--purple-dark-2:hsl(270,0%,5%);
-	--purple-dark-1:hsl(270,20%,15%);
-	--purple:hsl(270,40%,50%);
-	--purple-light-1:hsl(270,40%,55%);
 }
 
 body{
@@ -128,7 +118,7 @@ body{
 	line-height:1.4;
 }
 header{
-	background-color:var(--purple-dark-2);
+  background-color: white;
 	position:absolute;
 	z-index:10;
 	width:100%;
@@ -147,7 +137,7 @@ nav ul{
 nav h3 a,
 nav ul li a{
 	display:block;
-	line-height:var(--header-height);
+	line-height: 6rem;
 	text-decoration:none;
 	color:white;
 }
@@ -167,8 +157,8 @@ main a{
 	right:2rem;
 	z-index:1;
   margin-top: 22px;
-	width:var(--mobile-menu-width);
-	height:var(--mobile-menu-width);
+	width:4rem;
+	height:4rem;
 	cursor:pointer;
 }
 #mobile-menu span{
