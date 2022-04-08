@@ -1,4 +1,7 @@
 
+body{
+  background-color: #F3F3F3;
+}
 #prlx_lyr_1{
   position: fixed;
   background: url() no-repeat 0px 200px;
