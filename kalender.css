@@ -115,7 +115,6 @@ h3{
 body{
 	font-family:sans-serif;
 	font-size:1.6rem;
-	line-height:1.4;
 }
 header{
   background-color: white;
@@ -190,7 +189,7 @@ main a{
 
 #mobile-menu-content{
 	width:100%;
-	background:white;
+	background:#F3F3F3;
 	position:fixed;
 	top:-100vh;
 	left:0;
