@@ -90,15 +90,14 @@ nav{
 }
 nav ul{
 	display:flex;
-	gap:2rem;
+	gap:4rem;
 	list-style:none;
 }
 nav h3 a,
 nav ul li a{
 	display:block;
-	line-height: 6rem;
 	text-decoration:none;
-	color:white;
+	color:black;
 }
 main{
 	padding:2rem;
