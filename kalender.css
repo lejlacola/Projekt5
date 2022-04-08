@@ -203,7 +203,7 @@ main a{
 #mobile-menu-content{
 	width:100%;
 	height:calc(100vh - var(--header-height));
-	background:black;
+	background:white;
 	position:fixed;
 	top:-100vh;
 	left:0;
@@ -230,15 +230,15 @@ main a{
 	justify-content:center;
 	flex-direction:column;
 	text-align:center;
-	border-top:1px solid white;
+	border-top:1px solid black;
 }
 #mobile-menu-content ul li:last-of-type{
-	border-bottom:1px solid white;
+	border-bottom:1px solid black;
 }
 #mobile-menu-content ul li a{
 	padding:2rem;
 	text-decoration:none;
-	color:white;
+	color:black;
 	display:block;}
 
   @media (max-width:1024px){
