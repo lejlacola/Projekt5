@@ -68,3 +68,7 @@ body{
   transition: all 0.5s;
 }
 /* splashpage slut */
+
+.opgaverknap {
+  color: #000000;
+}
