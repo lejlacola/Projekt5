@@ -85,8 +85,9 @@ header{
   background-color: white;
 	position:absolute;
 	z-index:10;
-	width:100%;
+	width:50%;
 	top:0;
+  margin-left: 25%;
 }
 nav{
 	display:flex;
