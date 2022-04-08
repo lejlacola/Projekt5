@@ -68,6 +68,11 @@ body{
   transition: all 0.5s;
 }
 
+.opgaverknap {
+	color: #000000;
+}
+
+
 :root{
 	font-size:10px;
 }
