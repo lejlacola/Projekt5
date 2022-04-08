@@ -1,23 +1,25 @@
 body{
     background-color: #F3F3F3;
   }
-  h1{
-    text-align: center;
-  }
   .topbillede{
     width: 100%;
   }
   .nyhedbox {
     background-color: #FFFFFF;
     margin: 2%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .billede {
-    width: 700px;
-    max-width: 100%;
+    width: 578px;
+    max-width: 95%;
+    padding-top: 2%;
+    padding-left: 2%;
   }
   .billede2 {
       width: 400px;
-      max-width: 100%;
+      max-width: 95%;
+      padding-top: 2%;
+    padding-left: 2%;
   }
   .nyhedoverskrift {
     color: #000000;
@@ -26,13 +28,18 @@ body{
   .tekstfelt {
     height: 30px;
   }
-  .nyhedertekst {
+  p {
+    font-family: 'Utopia Std';
     color: #000000;
+    position: relative;
+    left: 10px;
   }
   .nyhederknap {
     color: #7BB56F;
     border: none;
     background-color: #FFFFFF;
+    position: relative;
+    left: 5px;
   }
 
   /* splashpage */
