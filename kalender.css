@@ -16,8 +16,8 @@
   text-align: left;
   display: grid;
   grid-template-areas:
-    "o o . . ."
-    "bes bes bes bes bes";
+    "o o . . dag"
+    "be be be be be";
   grid-template-columns: repeat(5, 1fr);
   box-sizing: border-box;
   margin: auto;
@@ -30,6 +30,15 @@
   max-width: 500px;
 }
 
+h2{
+	text-align: center;
+	grid-area: man;
+}
+
+h3{
+	grid-area: dag;
+}
+
 .uge {
   display: block;
 }
@@ -39,11 +48,7 @@
 }
 
 .kalender-beskrivelse{
-    grid-area: bes;
-}
-
-h1{
-    grid-area: man;
+    grid-area: be;
 }
 
 .top-container {
