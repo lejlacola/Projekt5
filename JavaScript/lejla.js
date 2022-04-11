@@ -14,11 +14,15 @@ function jstekstfelt(b) {
         if(height1 < 50){
         box.style.height= (height1=100)+"px";
         btns[b].innerHTML = "Læs mindre";
+		document.getElementById("tekst1").style.visibility = "hidden";
+		document.getElementById("tekst2").style.visibility = "visible";
     }
     else{
         let height1 = box.offsetHeight
         box.style.height= (height1=30)+"px";
         btns[b].innerHTML = "Læs mere";
+		document.getElementById("tekst1").style.visibility = "visible";
+		document.getElementById("tekst2").style.visibility = "hidden";
     }
 };
 

@@ -31,6 +31,9 @@ body{
     font-family: 'Utopia Std';
     color: #000000;
   }
+  .nyhedertekst2 {
+	visibility: hidden;
+  }
   .nyhederknap {
     color: #7BB56F;
     border: none;
