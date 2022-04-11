@@ -50,6 +50,9 @@ document.addEventListener('DOMContentLoaded',() =>
 });
 
 
+
+/*** Hamburger menu starter */
+
 function mobileMenu_show()
 {
 	return (window.matchMedia('(max-width: 1024px)').matches) ? true : false;
