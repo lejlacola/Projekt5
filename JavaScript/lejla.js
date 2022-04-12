@@ -25,9 +25,9 @@ function jstekstfelt(b) {
 		document.getElementById("tekst1.1").style.visibility = "hidden";
     }
 };
-	
+
 function jstekstfelt(b) {
-	let box = boxes[b];
+    let box = boxes[b];
 	let height2 = box.offsetHeight;
         if(height2 < 50){
         box.style.height= (height2=100)+"px";
@@ -45,7 +45,7 @@ function jstekstfelt(b) {
 };
 
 function jstekstfelt(b) {
-	let box = boxes[b];
+    let box = boxes[b];
 	let height3 = box.offsetHeight;
         if(height3 < 50){
         box.style.height= (height3=100)+"px";
@@ -61,6 +61,7 @@ function jstekstfelt(b) {
 		document.getElementById("tekst3.1").style.visibility = "hidden";
     }
 };
+
 
 /*** Hamburger menu starter */
 
