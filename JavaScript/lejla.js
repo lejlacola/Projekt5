@@ -15,16 +15,54 @@ function jstekstfelt(b) {
         box.style.height= (height1=100)+"px";
         btns[b].innerHTML = "Læs mindre";
 		document.getElementById("tekst1").style.visibility = "hidden";
-		document.getElementById("tekst2").style.visibility = "visible";
+		document.getElementById("tekst1.1").style.visibility = "visible";
     }
     else{
         let height1 = box.offsetHeight
         box.style.height= (height1=30)+"px";
         btns[b].innerHTML = "Læs mere";
 		document.getElementById("tekst1").style.visibility = "visible";
-		document.getElementById("tekst2").style.visibility = "hidden";
+		document.getElementById("tekst1.1").style.visibility = "hidden";
     }
 };
+	
+function jstekstfelt(b) {
+	let box = boxes[b];
+	let height2 = box.offsetHeight;
+        if(height2 < 50){
+        box.style.height= (height2=100)+"px";
+        btns[b].innerHTML = "Læs mindre";
+		document.getElementById("tekst2").style.visibility = "hidden";
+		document.getElementById("tekst2.1").style.visibility = "visible";
+    }
+    else{
+        let height2 = box.offsetHeight
+        box.style.height= (height2=30)+"px";
+        btns[b].innerHTML = "Læs mere";
+		document.getElementById("tekst2").style.visibility = "visible";
+		document.getElementById("tekst2.1").style.visibility = "hidden";
+    }
+};
+
+function jstekstfelt(b) {
+	let box = boxes[b];
+	let height3 = box.offsetHeight;
+        if(height3 < 50){
+        box.style.height= (height3=100)+"px";
+        btns[b].innerHTML = "Læs mindre";
+		document.getElementById("tekst3").style.visibility = "hidden";
+		document.getElementById("tekst3.1").style.visibility = "visible";
+    }
+    else{
+        let height3 = box.offsetHeight
+        box.style.height= (height3=30)+"px";
+        btns[b].innerHTML = "Læs mere";
+		document.getElementById("tekst3").style.visibility = "visible";
+		document.getElementById("tekst3.1").style.visibility = "hidden";
+    }
+};
+
+/*** Hamburger menu starter */
 
 document.addEventListener('DOMContentLoaded',() =>
 {
