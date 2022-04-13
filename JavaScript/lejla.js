@@ -8,19 +8,19 @@ console.log(boxes);
 let btns = document.getElementsByClassName("nyhederknap");
 
 
-function jstekstfelt(b) {
-    let box = boxes[b];
+function jstekstfelt(a) {
+    let box = boxes[a];
     let height1 = box.offsetHeight;
         if(height1 < 50){
         box.style.height= (height1=100)+"px";
-        btns[b].innerHTML = "Læs mindre";
+        btns[a].innerHTML = "Læs mindre";
 		document.getElementById("tekst1").style.visibility = "hidden";
 		document.getElementById("tekst1.1").style.visibility = "visible";
     }
     else{
         let height1 = box.offsetHeight
         box.style.height= (height1=30)+"px";
-        btns[b].innerHTML = "Læs mere";
+        btns[a].innerHTML = "Læs mere";
 		document.getElementById("tekst1").style.visibility = "visible";
 		document.getElementById("tekst1.1").style.visibility = "hidden";
     }
@@ -44,19 +44,19 @@ function jstekstfelt(b) {
     }
 };
 
-function jstekstfelt(b) {
-    let box = boxes[b];
+function jstekstfelt(c) {
+    let box = boxes[c];
 	let height3 = box.offsetHeight;
         if(height3 < 50){
         box.style.height= (height3=100)+"px";
-        btns[b].innerHTML = "Læs mindre";
+        btns[c].innerHTML = "Læs mindre";
 		document.getElementById("tekst3").style.visibility = "hidden";
 		document.getElementById("tekst3.1").style.visibility = "visible";
     }
     else{
         let height3 = box.offsetHeight
         box.style.height= (height3=30)+"px";
-        btns[b].innerHTML = "Læs mere";
+        btns[c].innerHTML = "Læs mere";
 		document.getElementById("tekst3").style.visibility = "visible";
 		document.getElementById("tekst3.1").style.visibility = "hidden";
     }
