@@ -128,10 +128,8 @@ header{
 }
 nav{
 	display:flex;
-	justify-content:right;
+	justify-content:center;
 	gap:4rem;
-  margin-right: 5%;
-  width: 90%;
 }
 nav ul{
 	display:flex;
