@@ -110,3 +110,8 @@ function mobileMenu_destroy()
 		document.getElementById('mobile-menu-content').remove();
 	}
 }
+
+for (let i = 0; i < 5; i++){
+const prototype = ["loop", "til", "søge", "maskine"];
+console.log(prototype);
+}
