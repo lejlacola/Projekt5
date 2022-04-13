@@ -39,6 +39,9 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
 }
 
+
+
+/*** Hamburger menu starter */
 document.addEventListener('DOMContentLoaded',() =>
 {
 	mobileMenu_init();
@@ -48,10 +51,6 @@ document.addEventListener('DOMContentLoaded',() =>
 		mobileMenu_init();
 	});
 });
-
-
-
-/*** Hamburger menu starter */
 
 function mobileMenu_show()
 {
