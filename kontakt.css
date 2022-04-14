@@ -97,7 +97,7 @@ main a{
 }
 #mobile-menu-content > div{
 	width:100%;
-	height:calc(100vh - 1px);
+	height:1000px;
 	display:flex;
 	flex-wrap:wrap;
 	align-items:center;
