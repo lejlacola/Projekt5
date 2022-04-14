@@ -64,7 +64,6 @@ function jstekstfelt(c) {
 
 
 /*** Hamburger menu starter */
-
 document.addEventListener('DOMContentLoaded',() =>
 {
 	mobileMenu_init();
@@ -74,7 +73,6 @@ document.addEventListener('DOMContentLoaded',() =>
 		mobileMenu_init();
 	});
 });
-
 
 function mobileMenu_show()
 {

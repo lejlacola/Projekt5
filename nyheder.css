@@ -92,12 +92,10 @@ body{
 	font-size:1.6rem;
 }
 header{
-  background-color: white;
 	position:absolute;
 	z-index:10;
-	width:50%;
+	width:100%;
 	top:0;
-  margin-left: 25%;
 }
 nav{
 	display:flex;
@@ -106,12 +104,13 @@ nav{
 }
 nav ul{
 	display:flex;
-	gap:4rem;
+	gap:2rem;
 	list-style:none;
 }
 nav h3 a,
 nav ul li a{
 	display:block;
+	line-height: 6rem;
 	text-decoration:none;
 	color:black;
 }
@@ -202,11 +201,13 @@ main a{
 	color:black;
 	display:block;}
 
+
   @media (max-width:1024px){
 	header nav ul{
 		display:none;
 	}
 }
+
 ul {
   padding: 0px;
 }
