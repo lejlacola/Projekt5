@@ -13,3 +13,10 @@ function splashlog(x) {
  }
 	const uger=["splash1", "splash2", "splash3"];
 	console.log(splashes);
+
+    let hour = new Date().getHours();
+if (hour < 20) {
+  greeting = "God dag!";
+} else {
+  greeting = "God aften!";
+}
