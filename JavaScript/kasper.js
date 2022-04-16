@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded',() =>
 
 function mobileMenu_show()
 {
-	return (window.matchMedia('(max-width: 1024px)').matches) ? true : false;
+	return (window.matchMedia('(max-width: 1024px)').matches)
 }
 
 
