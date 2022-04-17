@@ -68,7 +68,6 @@ function mobileMenu_init()
 			mobileMenu_build();
 			document.querySelector('#mobile-menu').addEventListener('click', function(event)
 			{
-				event.preventDefault();
 				mobileMenu_toggle();
 			});
 		}
