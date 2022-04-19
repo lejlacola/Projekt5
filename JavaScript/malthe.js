@@ -12,7 +12,7 @@ function splashlog(x) {
 	let splash3=document.getElementById("splash3");
  }
 	const uger=["splash1", "splash2", "splash3"];
-	console.log(splashes);
+	//console.log(splashes);
 
     let hour = new Date().getHours();
 if (hour < 20) {
