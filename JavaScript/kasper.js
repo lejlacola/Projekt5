@@ -89,7 +89,7 @@ function mobileMenu_build()
 	menu_content.appendChild(menu_content_overflow);
 
 	let navigation_clone = document.querySelector('header nav > ul').cloneNode(true);
-	menu_content_overflow.appendChild(navigation_clone);
+	menu_content_overflow.appendChild(navigation_clone)
 }
 
 
@@ -111,6 +111,11 @@ function mobileMenu_destroy()
 }
 
 for (let i = 0; i < 5; i++){
-const prototype = ["loop", "til", "søge", "maskine"];
+const prototype = [
+	{ name: 'april 21'},
+	{ name: 'Bygger scenen'},
+	{ name: 'General prøve'},
+	{ name: 'Forestilling'},
+]
 console.log(prototype);
 }
