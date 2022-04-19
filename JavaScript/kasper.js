@@ -111,6 +111,12 @@ function mobileMenu_destroy()
 }
 
 for (let i = 0; i < 5; i++){
-const prototype = ["loop", "til", "søge", "maskine"];
+const prototype = [
+	{ name: 'april 21'},
+	{ name: 'Bygger scenen'},
+	{ name: 'General prøve'},
+	{ name: 'Forestilling'},
+]
+
 console.log(prototype);
 }
