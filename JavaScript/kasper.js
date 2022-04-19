@@ -89,7 +89,7 @@ function mobileMenu_build()
 	menu_content.appendChild(menu_content_overflow);
 
 	let navigation_clone = document.querySelector('header nav > ul').cloneNode(true);
-	menu_content_overflow.appendChild(navigation_clone);
+	menu_content_overflow.appendChild(navigation_clone)
 }
 
 
@@ -117,6 +117,5 @@ const prototype = [
 	{ name: 'General prøve'},
 	{ name: 'Forestilling'},
 ]
-
 console.log(prototype);
 }
