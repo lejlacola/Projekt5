@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/nyheder.css">
+    <script src="Javascript/lejla.js" defer></script>
+    <title>Seneste Nyheder</title>
+    <meta name="Seneste Nyheder" content="Her kan du læse og se de seneste nyheder og sociale begivenheder
+for H.C Andersens festspil i odense.">
+</head>
+<body>
+  <div class="splash">
+    <img class="fade-in" src="billeder/hcahjerte2.gif" alt="animation" style="width: 100%;">
+</div>
+<script src="Javascript/malthe.js"></script>
+
+  <div class="grid-nyheder">
+    <h1 id="headettag"> <img id="menubilled" src="billeder/hjerte.png" alt="hjerte logo">Nyheder</h1>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Nyheder</a></li>
+            <li><a href="kalender.html">Kalender</a></li>
+            <li><a href="opgaver.html">Opgaver</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </nav>
+    </header>
+
+
+    <div class="menu">
+    </div>
+
+      <div class="nyhedbox">
+        <img src="billeder/opslag1.png" alt="forestilling" class="billede">
+        <p class="nyhedoverskrift">Første forestilling færdig!</p>
+        <div class="tekstfelt">
+          <p class="nyhedertekst1" id="tekst0">
+            Sommerens første forestilling var fantastisk! ...
+          </p>
+            <p class="nyhedertekst2" id="tekst0.1">
+            Sommerens første forestilling var fantastisk! 13.000 gæster kom forbi, vi håber det bliver ved sådan. </p>
+            </div>
+        <button onclick="jstekstfelt(0)" class="nyhederknap">Læs mere</button>
+    </div>
+
+    <div class="nyhedbox">
+      <img src="billeder/bygge.jpg" alt="byggeri" class="billede2">
+      <p class="nyhedoverskrift">Bygningen af scenen er i gang</p>
+      <div class="tekstfelt">
+        <p class="nyhedertekst1" id="tekst1">
+          Byggeholdet er i fuld gang med bygningen af scenen...
+          </p>
+          <p class="nyhedertekst2" id="tekst1.1">
+            Byggeholdet er i fuld gang med bygningen af scenen. De hygger og bygger i den Fynske Landsby! </p>
+        </div>
+      <button onclick="jstekstfelt(1)" class="nyhederknap">Læs mere</button>
+  </div>
+
+  <div class="nyhedbox">
+    <img src="billeder/øvelse.jpg" alt="øvelse" class="billede">
+    <p class="nyhedoverskrift">Øvelser inden sommerens forestilling</p>
+    <div class="tekstfelt">
+      <p class="nyhedertekst1" id="tekst2">
+      Vores unge hold er ved at være færdig med de sidste øvelser...
+      </p>
+      <p class="nyhedertekst2" id="tekst2.1">
+      Vores unge hold er ved at være færdig med de sidste øvelser inden sommerens forestilling. De glæder sig helt vildt med at vise deres optræden.</p>
+      </div>
+    <button onclick="jstekstfelt(2)" class="nyhederknap">Læs mere</button>
+</div>
+
+    <footer>
+    </footer>
+  </div>
+
+  <div id="splash1"></div>
+  <div id="splash2"></div>
+  <div id="splash3"></div>
+
+
+</body>
+</html>
