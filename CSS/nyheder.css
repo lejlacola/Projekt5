@@ -77,6 +77,10 @@ body{
 .opgaverknap {
 	color: #000000;
 	text-decoration: none;
+	background-color: #DCDCDC;
+	padding: 1%;
+	border: 1px solid black;
+	font-size: 13px;
 }
 
 
