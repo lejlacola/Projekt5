@@ -10,6 +10,7 @@
 body{
 	font-family:sans-serif;
 	font-size:1.6rem;
+  background-color: #f3f3f3;
 }
 header{
 	position:absolute;
@@ -130,4 +131,9 @@ main a{
 
 ul {
   padding: 0px;
+}
+
+#menubilled {
+  max-width: 40px;
+  max-height: 40px;
 }

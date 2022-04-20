@@ -29,3 +29,8 @@ h1{
   border: none;
   background-color: #FFFFFF;
 }
+
+#menubilled {
+  max-width: 40px;
+  max-height: 40px;
+}
