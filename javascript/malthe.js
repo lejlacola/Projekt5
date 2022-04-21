@@ -1,4 +1,4 @@
-/* splashpage af Friis */
+/* splashpage af Malthe Friis */
 const splash = document.querySelector('.splash');
 
 document.addEventListener('DOMContentLoaded', (e)=>{
