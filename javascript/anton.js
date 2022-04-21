@@ -1,3 +1,4 @@
+/*** kontakt script kodet af Kasper og Anton */
 function _(id) {return document.getElementById(id);}
 function submitForm(){
 	_("mybtn").disabled = true;
@@ -20,7 +21,7 @@ function submitForm(){
 	}
 	ajax.send( formdata );}
 
-	/*** Hamburger menu starter */
+	/*** Hamburger menu starter - kodet af Anton Warming */
 	document.addEventListener('DOMContentLoaded',() =>
 	{
 		mobileMenu_init();
@@ -33,7 +34,7 @@ function submitForm(){
 
 	function mobileMenu_show()
 	{
-		return (window.matchMedia('(max-width: 1024px)').matches) ? true : false;
+		return (window.matchMedia('(max-width: 1024px)').matches)
 	}
 
 
@@ -47,7 +48,6 @@ function submitForm(){
 				mobileMenu_build();
 				document.querySelector('#mobile-menu').addEventListener('click', function(event)
 				{
-					event.preventDefault();
 					mobileMenu_toggle();
 				});
 			}
@@ -69,7 +69,7 @@ function submitForm(){
 		menu_content.appendChild(menu_content_overflow);
 
 		let navigation_clone = document.querySelector('header nav > ul').cloneNode(true);
-		menu_content_overflow.appendChild(navigation_clone);
+		menu_content_overflow.appendChild(navigation_clone)
 	}
 
 

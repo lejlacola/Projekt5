@@ -41,7 +41,7 @@ function showSlides(n) {
 
 
 
-/*** Hamburger menu starter */
+/*** Hamburger menu starter - kodet af Anton Warming */
 document.addEventListener('DOMContentLoaded',() =>
 {
 	mobileMenu_init();
