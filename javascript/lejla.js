@@ -1,3 +1,4 @@
+/*** Tekstboks kodet af Lejla */
 const tekstfelter = ["tekstfelt1", "tekstfelt2", "tekstfelt3","tekstfelt4"];
 for(let i = 0; i < tekstfelter.length; i++){
     console.log(tekstfelter[i]);
